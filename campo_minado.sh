@@ -144,7 +144,7 @@ get_coordinates()
       printf '\n\n\t%s\n\n' "Você acertou uma mina"
       exit 0
     elif [ $score = $end ]; then
-      printf "\n\n\t $GREEN%s: %s $NOCOLOR %d\n\n Você conseguiu!"
+      printf "\n\n\t $GREEN%s\n\n" "Você conseguiu!"
       exit 0
     fi
   fi
